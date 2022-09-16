@@ -67,9 +67,9 @@ We suggest that you begin by typing:
 
 Hay otra herramienta llamada (vite), nos permite crear proyectos de React como de otros múltiples Frameworks. Pocas personas conocen esta herramienta.
 <!-- * Pasos para la instalación -->
-<!-- ? (npm create vite@latest my-react-app -- --template react) -->
-<!-- ? Ingresamos al directorio generado con el comando anterior -->
-<!-- ? (npm install) -->
-<!-- ? Corremos (npm run dev) para compilar y correr el template que nos ofrece la instalación por defecto -->
+<!-- * (npm create vite@latest my-react-app -- --template react) -->
+<!-- * Ingresamos al directorio generado con el comando anterior -->
+<!-- * (npm install) -->
+<!-- * Corremos (npm run dev) para compilar y correr el template que nos ofrece la instalación por defecto -->
 
                                                                     <!-- ! CURSO DE REACT  -->
