@@ -72,4 +72,6 @@ Hay otra herramienta llamada (vite), nos permite crear proyectos de React como d
 <!-- ? (npm install) -->
 <!-- ? Corremos (npm run dev) para compilar y correr el template que nos ofrece la instalación por defecto -->
 
+
+
                                                                     <!-- ! CURSO DE REACT  -->
