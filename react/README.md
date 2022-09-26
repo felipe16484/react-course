@@ -2,7 +2,6 @@
 
                                                                     <!-- ! CURSO DE REACT  -->
 
-
 <!-- * Definición -->
 
 ReactJS es una biblioteca de JavaScript para poder crear interfaces de usuario. Esta biblioteca nos permite crear aplicaciones web interactivas que responden velozmente
@@ -24,15 +23,13 @@ en React.
 <!--? Necesitamos tener un editor de código. Preferiblemente (VScode). -->
 
 
-<!-- * Comandos  -->
-
-<!-- ! Instalación -->
-
-
-
 <!-- ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <!-- * create-react-app -->
+<!-- * Comandos  -->
+
+  <!-- ! Instalación -->
+
+    <!-- * create-react-app -->
 
 Hay una herramienta llamada (create react app) que es la forma de crear proyectos React más utilizada. Si nosotros quisiéramos instalar React desde 0, deberíamos instalar 
 muchos paquetes y quedaríamos con una herramienta muy similar a lo que esta herramienta hace. Con un solo comando, la herramienta nos permite crear documentos de React.
@@ -57,13 +54,13 @@ We suggest that you begin by typing:
   cd example <!-- * Entrar en el directorio del proyecto -->
   npm start
 
-
-
-
-
 <!-- ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <!-- * vite -->
+<!-- * Comandos  -->
+
+  <!-- ! Instalación -->
+
+      <!-- * vite -->
 
 Hay otra herramienta llamada (vite), nos permite crear proyectos de React como de otros múltiples Frameworks. Pocas personas conocen esta herramienta.
 <!-- * Pasos para la instalación -->
@@ -72,6 +69,28 @@ Hay otra herramienta llamada (vite), nos permite crear proyectos de React como d
 <!-- ? (npm install) -->
 <!-- ? Corremos (npm run dev) para compilar y correr el template que nos ofrece la instalación por defecto -->
 
+<!-- ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
+<!-- * Estructura del Proyecto -->
+
+<!-- ? Carpeta: (src) -->
+Es donde nosotros vamos a colocar nuestro código, es decir, donde vamos a colocar archivos y vamos a desarrollar. (Tanto HTML como CSS y JS).
+
+<!-- ? Carpeta: (puclic) -->
+Encontramos los documentos HTML donde, con el código de JavaScript, podemos modificarlo.
+También podemos ver que es la carpeta donde encontramos los recursos gráficos que utilizaremos en nuestro proyecto.
+
+<!-- ? Archivo: (package.json) -->
+Es el archivo que nos indica qué bibliotecas estamos trabajando en nuestra aplicación
+
+<!-- ? Archivo: (package-lock.json) -->
+Es el archivo que nos permite hacerle un seguimiento a los archivos instalados en node modules
+
+<!-- ? Carpeta: (node_modules) -->
+Es la carpeta que contiene todo el funcionamiento interno de la aplicación.
+
+<!-- ! Carpeta: (build) -->
+Es la carpeta la cual contiene el proyecto construido para producción, y es la carpeta la cual nosotros subiríamos a nuestro dominio al momento de finalizar 
+el desarrollo. (Sólo aparece después de ejecutar el comando <!-- ? npm run build -->)
 
                                                                     <!-- ! CURSO DE REACT  -->
