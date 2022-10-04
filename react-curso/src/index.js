@@ -1,6 +1,8 @@
 import React from "react"; // * De esta manera podemos importar React desde las bibliotecas que tenemos instaladas en nuesto proyecto.
 import ReactDOM from "react-dom/client"; // * Con react-dom, decimos que vamos a estar importando de la librería, las funcionalidades para trabajar en el Navegador
 
+import { Greeting } from "./Greeting" // ! Esta línea se utiliza en conjunto con la línea 178: "Ejemplo de Individualización de Documentos por Componente"
+
 // ? Hay que tener en cuenta que React sirve para trabajar en múltiples ambientes (Front - Móvil - Conexión con Back...), por lo tanto debemos especificar
 // ? de qué forma vamos a trabajarlo. En este caso, como vamos a trabajar en fron, importamos para el trabajo en navegador.
 
@@ -156,13 +158,24 @@ root.render(<Greeting />); */
 
 // * Etiquetas "Fragment", usabilidad:
 
-function Greeting() {
+/* function Greeting() {
   function add(x, y) {
     return x + y;
   }
 
   return <h1>{add(30, 50)}</h1>;
 }
+
+root.render( // ? Esta es la sintaxis que podemos utilizar cuando no queremos que los componentes queden dentro de una etiqueta como tal
+  <> 
+    <Greeting />
+    <Greeting />
+    <Greeting />
+    <Greeting />
+  </>
+); */
+
+// * Ejemplo de Individualización de Documentos por Componente:
 
 root.render( // ? Esta es la sintaxis que podemos utilizar cuando no queremos que los componentes queden dentro de una etiqueta como tal
   <> 

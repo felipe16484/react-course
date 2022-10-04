@@ -119,4 +119,9 @@ porciones de HTML que al final pasarán siendo convertidas en JavaScript puro. E
 Al momento de intentar introducir código dentro de un return HTML, necesitamos, por regla de JSX, abrir llaves y dentro de ellas poner el código con el cual necesitemos
 intereactuar. También podemos operar dentro de las llaves, por ejemplo podemos ubicar operaciones y el código se va a compilar sin problemas. Hay un caso particular con las variables booleanas, si nosotros queremos retornarlas, no mostrará nada en el navegador, pero si nosotros realizamos por ejemplo una condición para retornar algo con estas variables, sí lo podremos hacer.
 
+<!-- ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<!-- * Separar los Componentes en Archivos Individuales -->
+Si nosotros tenemos todos nuestros componentes en un solo documento, podemos tener problemas de legibilidad y ejecución del código. La principal solución que se tiene para
+ésto, es individualizar por documento cada uno de los componentes que se están utilizando, así generamos buenas prácticas y podremos acceder a los componentes mucho más fácil.
                                                                     <!-- ! CURSO DE REACT  -->
