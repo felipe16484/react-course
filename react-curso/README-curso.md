@@ -103,8 +103,20 @@ Los componentes son porciones de una interfaz mucho más grande. Son re-utilizab
 veces en mi código, en vez de volver a escribir el mismo código las veces que lo necesite, simplemente lo vuelvo a utilizar de nuevo sin volverlo a escribir.Algo a 
 tener en cuenta es que hay un componente inicial el cual nosotros utilizamos para contener todo el aplicativo realizado en react, éste se llama Root.
 
-Siempre que necesitemos crear varios componentes, debemos saber que deben ir contenidos por un componente general. Un componente es algo (funcion) que siempre retorna una 
-interfaz.
+Un componente es algo (funcion) que siempre retorna una interfaz.
 
-      <!-- ! Importante: cuando estamos escribiendo código JavaScript, nosotros NO podemos hacer un return de códio HTML, pero en React SÍ. -->
+  <!-- ! REGLA: Siempre que necesitemos crear componentes, debemos saber que deben ir contenidos por un componente general, es decir, si estamos creando -->  
+  <!-- ! componentes, deben ir dentro de un contenedor HTML. -->  
+
+      <!-- ! IMPORTANTE: cuando estamos escribiendo código JavaScript, nosotros NO podemos hacer un return de código HTML, pero en React SÍ. -->
+
+<!-- ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<!-- * ¿Qué es JSX? -->
+JSX es una sintaxis que nosotros utilizamos en React, la cual es una combinación de HTML y JavaScript. JSX nos permite, dentro de un archivo JavaScript, retornar
+porciones de HTML que al final pasarán siendo convertidas en JavaScript puro. Esta sintaxis nos permite también interpretar código, es decir, nos permite interactuar con variables, ejecutar funciones, operaciones etc... y ésto mezclarlo con HTML.
+
+Al momento de intentar introducir código dentro de un return HTML, necesitamos, por regla de JSX, abrir llaves y dentro de ellas poner el código con el cual necesitemos
+intereactuar. También podemos operar dentro de las llaves, por ejemplo podemos ubicar operaciones y el código se va a compilar sin problemas. Hay un caso particular con las variables booleanas, si nosotros queremos retornarlas, no mostrará nada en el navegador, pero si nosotros realizamos por ejemplo una condición para retornar algo con estas variables, sí lo podremos hacer.
+
                                                                     <!-- ! CURSO DE REACT  -->
